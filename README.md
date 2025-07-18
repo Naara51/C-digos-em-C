@@ -1,0 +1,1 @@
+ O objetivo deste repositório é apresentar códigos-fonte simples, funcionais e didáticos escritos na linguagem C a fim de auxiliar estudantes e iniciantes com exemplos que abordam os principais conceitos da programação estruturada servindo como base para o desenvolvimento de programas mais avançados futuramente.
