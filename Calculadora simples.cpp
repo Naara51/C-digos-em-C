@@ -39,7 +39,7 @@ int main (){
 				 Resultado= Numero1 + Numero2;
 				 printf("O resultado será %.2f\n", Resultado);
 				  break;
-			    case 2 :
+			        case 2 :
 			   	 Resultado= Numero1 - Numero2; 
 			   	 printf("O resultado será %.2f\n", Resultado);
 				  break;
