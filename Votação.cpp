@@ -1,3 +1,5 @@
+//Este programa realiza a votação de 3 condidatos apresentando o relátorio com a quantidade de votos e o vencedor, opção de sair e ler opção inválida.  
+
 #include<stdio.h>
 #include<locale.h>
 #include<stdlib.h>
@@ -10,10 +12,10 @@ int main (){
 	
 	do{ 
 	system("cls");
-	printf("Teste de popularidade \n");
-	printf("1.Arya\n");
-	printf("2. Melisandre\n");
-	printf("3. Ramsay\n");
+	printf("Votação 2025 \n");
+	printf("1.João\n");
+	printf("2. Pedro\n");
+	printf("3. Aline\n");
 	printf("4. Relatório\n");	
 	printf("5. Sair\n");	
 	scanf("%i", &Escolha);
@@ -34,18 +36,18 @@ int main (){
 	case 4:{
 	 system("cls");
 	 printf("Relatório de votação\n");
-	 printf("1- Arya: %i \n", VotoA);
-	 printf("2- Melisandre: %i \n", VotoB);
-	 printf("3- Ramsay: %i \n", VotoC);
+	 printf("1- João: %i \n", VotoA);
+	 printf("2- Pedro: %i \n", VotoB);
+	 printf("3- Aline: %i \n", VotoC);
 	 
 	 if(VotoA>VotoB && VotoA>VotoC)
-	 printf("Candidato mais votado Arya: %i\n", VotoA);
+	 printf("Candidato mais votado é o João: %i\n", VotoA);
 	 
 	 if(VotoB>VotoA && VotoB>VotoA)
-	 printf("Candidato mais votado Melisandre: %i\n", VotoB);
+	 printf("Candidato mais votado é o Pedro: %i\n", VotoB);
 	 
 	 if(VotoC>VotoA && VotoC> VotoB)
-	 printf("Candidato mais votado Ramsay: %i \n", VotoC);
+	 printf("Candidato mais votado é a Aline: %i \n", VotoC);
 	 system("pause");
 		break;
 	}
