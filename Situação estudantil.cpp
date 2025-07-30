@@ -1,3 +1,4 @@
+// Este programa imprimi a situação estudantil baseado na média simples sendo Aprovado com 6 e acima de 6, em Recuperação entre 5 e 5,9 e abaixo de 5 Reprovado.
 #include<stdio.h>
 #include<locale.h>
 
